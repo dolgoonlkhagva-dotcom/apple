@@ -1,0 +1,157 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+.mobile {
+  display: flex;
+  flex-direction: column;
+  margin: 0 auto;
+}
+.header {
+  display: flex;
+  flex-direction: row;
+  width: 390px;
+  height: 48px;
+  background-color: white;
+}
+.logo-apple {
+  background-image: url(Item\ →\ Link\ -\ Apple.svg);
+  width: 49px;
+  height: 48px;
+}
+
+.search {
+  background-image: url(Item\ →\ Button\ -\ Search\ apple.com.svg);
+  width: 48px;
+  height: 48px;
+  margin-left: 195px;
+}
+.shop {
+  background-image: url(Item.svg);
+  width: 48px;
+  height: 48px;
+}
+.button {
+  background-image: url(Button\ -\ Menu.svg);
+  width: 48px;
+  height: 48px;
+}
+.header-text {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 73px;
+  width: 390px;
+  background-color: white;
+  margin-left: 15px;
+  margin-right: 15px;
+}
+.section {
+  background-image: url(iphone.jpg);
+  width: 390px;
+  height: 500px;
+  background-repeat: 0;
+  background-size: cover;
+  background-position: center;
+}
+
+.section-text {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 350px;
+}
+
+.text-1 {
+  font-size: 30px;
+}
+.text-2 {
+  font-size: 18px;
+}
+.section-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.learn-more {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy {
+  width: 66px;
+  height: 36px;
+
+  border-radius: 999px;
+  color: #0071e3;
+  border: 1px #0071e3 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-1 {
+  background-image: url(Figure.svg);
+  width: 390px;
+  height: 500px;
+}
+.section-text-1 {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 40px;
+}
+
+.text-1 {
+  font-size: 30px;
+}
+.text-2 {
+  font-size: 18px;
+}
+.section-buttons {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  margin-top: 10px;
+}
+
+.learn-more {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy {
+  width: 66px;
+  height: 36px;
+
+  border-radius: 999px;
+  color: #0071e3;
+  border: 1px #0071e3 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  background-image: url(Figure.png);
+  width: 390px;
+  height: 500px;
+}
