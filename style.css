@@ -1,18 +1,28 @@
 * {
   margin: 0;
   padding: 0;
+  box-sizing: border-box;
 }
+/* @media (min-width: 390px) {
+  .mobile {
+    background-color: aqua;
+  }
+} */
 .mobile {
   display: flex;
   flex-direction: column;
-  margin: 0 auto;
+  /* margin: 0 auto; */
 }
 .header {
   display: flex;
-  flex-direction: row;
-  width: 390px;
+  /* flex-direction: row; */
+  justify-content: space-between;
+  width: 100%;
   height: 48px;
-  background-color: white;
+  background-color: #f5f5f7cc;
+}
+.nav-bar {
+  display: flex;
 }
 .logo-apple {
   background-image: url(Item\ →\ Link\ -\ Apple.svg);
@@ -24,7 +34,7 @@
   background-image: url(Item\ →\ Button\ -\ Search\ apple.com.svg);
   width: 48px;
   height: 48px;
-  margin-left: 195px;
+  /* margin-left: 195px; */
 }
 .shop {
   background-image: url(Item.svg);
@@ -40,19 +50,23 @@
   display: flex;
   justify-content: center;
   align-items: center;
+  text-align: center;
   height: 73px;
-  width: 390px;
-  background-color: white;
-  margin-left: 15px;
-  margin-right: 15px;
+  width: 100%;
+  /* background-color: white; */
+  margin-inline: 31px;
 }
 .section {
   background-image: url(iphone.jpg);
-  width: 390px;
+  width: 100%;
   height: 500px;
   background-repeat: 0;
   background-size: cover;
   background-position: center;
+  display: flex;
+  justify-content: center;
+  align-items: end;
+  padding-bottom: 36px;
 }
 
 .section-text {
@@ -61,7 +75,6 @@
   color: white;
   justify-content: center;
   align-items: center;
-  margin-top: 350px;
 }
 
 .text-1 {
@@ -78,7 +91,7 @@
   margin-top: 10px;
 }
 
-.learn-more {
+.learn-more-1 {
   width: 107px;
   height: 36px;
   background-color: #0071e3;
@@ -88,7 +101,7 @@
   justify-content: center;
   align-items: center;
 }
-.buy {
+.buy-1 {
   width: 66px;
   height: 36px;
 
@@ -128,7 +141,49 @@
   margin-top: 10px;
 }
 
-.learn-more {
+.learn-more-2 {
+  width: 107px;
+  height: 36px;
+  background-color: white;
+  color: black;
+
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-2 {
+  width: 66px;
+  height: 36px;
+
+  border-radius: 999px;
+  color: white;
+  border: 1px white solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-2 {
+  background-image: url(Figure.png);
+  width: 390px;
+  height: 500px;
+}
+
+.ipad {
+  width: 180px;
+  height: 42px;
+  display: flex;
+  margin-left: 115px;
+  margin-top: 20px;
+}
+
+.ipad-text {
+  font-size: 18px;
+  display: flex;
+  justify-content: center;
+}
+.learn-more-1 {
   width: 107px;
   height: 36px;
   background-color: #0071e3;
@@ -138,7 +193,7 @@
   justify-content: center;
   align-items: center;
 }
-.buy {
+.buy-1 {
   width: 66px;
   height: 36px;
 
@@ -150,8 +205,100 @@
   align-items: center;
 }
 
-.container-2 {
-  background-image: url(Figure.png);
+.container-3 {
+  background-image: url(1.svg);
   width: 390px;
   height: 500px;
+}
+.Airpods {
+  display: flex;
+  flex-direction: column;
+  color: white;
+  justify-content: center;
+  align-items: center;
+  margin-top: 280px;
+}
+.airpods {
+  font-size: 30px;
+}
+.airpod-text {
+  font-size: 18px;
+}
+.learn-more-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-1 {
+  width: 66px;
+  height: 36px;
+
+  border-radius: 999px;
+  color: #0071e3;
+  border: 1px #0071e3 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.container-4 {
+  background-image: url(2.svg);
+  width: 390px;
+  height: 500px;
+}
+.apple {
+  width: 22px;
+  height: 27px;
+}
+.Watch {
+  display: flex;
+  flex-direction: column;
+  margin-top: 10px;
+}
+.watch {
+  font-size: 28px;
+}
+.watch-text {
+  font-size: 13px;
+}
+.watch-text-2 {
+  font-size: 18px;
+}
+.learn-more-1 {
+  width: 107px;
+  height: 36px;
+  background-color: #0071e3;
+  color: white;
+
+  border-radius: 999px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+.buy-1 {
+  width: 66px;
+  height: 36px;
+
+  border-radius: 999px;
+  color: #0071e3;
+  border: 1px #0071e3 solid;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+@media (min-width: 768px) {
+  .section-text {
+    justify-content: start;
+  }
+  .section {
+    background-image: url(./tablet-iphone16pro.jpg);
+    height: 650px;
+    align-items: start;
+    padding-top: 58px;
+  }
 }
